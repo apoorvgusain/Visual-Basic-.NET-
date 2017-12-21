@@ -1,7 +1,7 @@
 ﻿Public Class Form1
 
     Dim rad As Double
-    Dim ar As Double
+    Dim area As Double
 
     Private Sub PictureBox1_Click(sender As System.Object, e As System.EventArgs)
 
@@ -14,8 +14,8 @@
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Area.Click
 
         rad = TextBox.Text
-        ar = 3.14 * 3.14 * rad
-        MessageBox.Show(ar, "Area of Circle")
+        area = 3.14 * 3.14 * rad
+        MessageBox.Show(area, "Area of Circle")
 
 
     End Sub
